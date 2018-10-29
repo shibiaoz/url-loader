@@ -29,9 +29,10 @@ export default function loader(src) {
   }
   // Get MIME type
   const mimetype = options.mimetype || mime.getType(file);
-
+  const url = getOptions.getRemainingRequest(this);
+  const isHaseBase64TagQuery = url && /__base64/g.test(url);
   // No limit or within the specified limit
-  if (!limit || src.length < limit) {
+  if ((!limit || src.length < limit) && isHaseBase64TagQuery) {
     if (typeof src === 'string') {
       src = Buffer.from(src);
     }

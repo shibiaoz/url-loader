@@ -1,12 +1,12 @@
 {
-  "name": "url-loader",
-  "version": "1.1.2",
+  "name": "zyburl-loader",
+  "version": "1.0.0",
   "description": "A loader for webpack which transforms files into base64 URIs",
   "license": "MIT",
   "repository": "webpack-contrib/url-loader",
-  "author": "Tobias Koppers @sokra",
-  "homepage": "https://github.com/webpack-contrib/url-loader",
-  "bugs": "https://github.com/webpack-contrib/url-loader/issues",
+  "author": "张士标",
+  "homepage": "https://github.com/shibiaoz/url-loader.git",
+  "bugs": "https://github.com/shibiaoz/url-loader.git/issues",
   "main": "dist/cjs.js",
   "engines": {
     "node": ">= 6.9.0"
