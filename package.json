@@ -1,6 +1,6 @@
 {
   "name": "zyburl-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A loader for webpack which transforms files into base64 URIs",
   "license": "MIT",
   "repository": "webpack-contrib/url-loader",
